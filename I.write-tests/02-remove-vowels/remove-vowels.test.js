@@ -2,7 +2,12 @@ test('remove vowels from word', function () {
 
     // Arrange
 
-    // Act
+    var name = ["samuel"];
 
+    // Act
+    var result = removeVowels(name);
     // Assert
+    expect(result).toEqual("-a-ue-")
+
+
 })
